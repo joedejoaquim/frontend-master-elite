@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-This project follows Semantic Versioning.
+The format follows Keep a Changelog and Semantic Versioning.
 
 ---
 
@@ -12,6 +12,12 @@ This project follows Semantic Versioning.
 
 - Initial project structure
 - Architecture documentation
+- Folder structure documentation
 - POWER.md
+- README.md
 - MCP configuration
-- README
+- Style Guide
+- Roadmap
+- GitHub project foundation
+
+---
