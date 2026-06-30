@@ -1,0 +1,67 @@
+{
+  "name": "frontend-master-elite",
+  "version": "2.0.0-alpha.1",
+  "description": "MCP configuration for Frontend Master Elite system in Kiro",
+
+  "mcpServers": {
+    "context7": {
+      "enabled": true,
+      "role": "documentation-intelligence",
+      "description": "Provides real-time framework and library documentation for React, Next.js, TypeScript, and frontend tools"
+    },
+
+    "shadcn-ui": {
+      "enabled": true,
+      "role": "ui-component-system",
+      "description": "Provides modern UI component patterns and design system primitives based on shadcn/ui philosophy"
+    },
+
+    "framer-motion": {
+      "enabled": true,
+      "role": "animation-engine",
+      "description": "Provides motion design patterns, animation guidelines, and reusable animation logic"
+    },
+
+    "twentyfirst-dev": {
+      "enabled": true,
+      "role": "ui-inspiration-engine",
+      "description": "Provides modern UI patterns, landing page inspiration, and interface references"
+    },
+
+    "design-system-core": {
+      "enabled": true,
+      "role": "design-system-enforcer",
+      "description": "Ensures spacing, typography, color tokens, and UI consistency rules are respected"
+    },
+
+    "frontend-architecture-analyzer": {
+      "enabled": true,
+      "role": "architecture-validator",
+      "description": "Analyzes project structure, component design, and enforces frontend architecture rules"
+    }
+  },
+
+  "executionRules": {
+    "priorityOrder": [
+      "architecture",
+      "design-system",
+      "performance",
+      "accessibility",
+      "implementation"
+    ],
+
+    "forbiddenBehaviors": [
+      "inline styling without reason",
+      "unstructured components",
+      "business logic inside UI components",
+      "unoptimized rendering patterns"
+    ],
+
+    "requiredChecks": [
+      "accessibility validation",
+      "responsive behavior check",
+      "performance impact check",
+      "component reusability check"
+    ]
+  }
+}
